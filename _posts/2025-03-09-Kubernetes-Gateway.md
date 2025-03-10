@@ -33,7 +33,7 @@ description: "The Kubernetes Gateway API simplifies traffic management in your c
 ### Gateway Class
 - Defines a group of Gateways that share the same configuration and behavior.
 - Each GatewayClass is managed by a single controller, though a controller may handle multiple GatewayClasses.
-- Since GatewayClass is a cluster-wide resource, at least one must be defined for any Gateway to function. It is similar in concept to IngressClass (for Ingress) or StorageClass (for PersistentVolumes).
+- Since GatewayClass is a cluster-wide resource, at least one must be defined for any Gateway to function.
 - This is similar to [IngressClass](https://kubernetes.io/docs/concepts/services-networking/ingress/#ingress-class) for Ingress and [StorageClass](https://kubernetes.io/docs/concepts/storage/storage-classes/) for PersistentVolumes.
 
 ### Gateway
