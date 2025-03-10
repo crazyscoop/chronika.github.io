@@ -1,8 +1,8 @@
 ---
 title: Kubernetes Gateway
 date: 2025-03-06 07:00:00 +0530
-categories: [kubernetes]
-tags: [kubernetes, networking]
+categories: [Kubernetes Ingress]
+tags: [kubernetes, networking, ingress]
 description: "The Kubernetes Gateway API simplifies traffic management in your cluster by offering improved routing and clear roles for platform engineers and developers."
 ---
 
