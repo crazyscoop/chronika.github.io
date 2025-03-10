@@ -248,6 +248,7 @@ spec:
               number: 80
 ```
 
+<br>
 
 ## Limitations of the Ingress API
 - Ingress primarily supports TLS termination and basic, content-based HTTP routing
