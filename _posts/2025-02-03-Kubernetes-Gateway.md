@@ -43,7 +43,7 @@ description: "The Kubernetes Gateway API simplifies traffic management in your c
 
 ### Route Resources
 - Define the rules for routing incoming traffic from a Gateway to the appropriate Kubernetes Services.
-- You can specify rules based on protocols (HTTP, HTTPS, TCP), URL paths, hostnames, and other attributes.
+- You can specify rules based on protocols (HTTP, HTTPS, TCP), URL paths, host names, and other attributes.
 - Support functionalities like traffic splitting, retries, and header modifications, offering more control compared to the traditional Ingress resource.
 
 

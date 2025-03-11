@@ -66,7 +66,7 @@ spec:
 - For example with [ingress-nginx](https://kubernetes.github.io/ingress-nginx/), the controller **automatically** creates a single load balancer (with one public IP) that serves all the Ingress resources it manages.
 - However, other implementations or configurations can vary. For instance, cloud-specific controllers may allow you to configure individual load balancers per Ingress resource, depending on your architecture or security requirements.
 - A [comprehensive list](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/#additional-controllers) of Ingress controllers.
-- A [comparision](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit?gid=907731238#gid=907731238) of various Ingress Controllers.
+- A [comparison](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit?gid=907731238#gid=907731238) of various Ingress Controllers.
 
 <br>
 
@@ -119,7 +119,7 @@ spec:
             port:
               number: 4200  
 ```
-- This can also be acheived with an ingress by specifying a default backend with no rules.
+- This can also be achieved with an ingress by specifying a default backend with no rules.
 
 ```yaml
 apiVersion: networking.k8s.io/v1
@@ -134,9 +134,9 @@ spec:
         number: 4200
 ```
 
-### Simple fanout
+### Simple Fanout
 
-A fanout configuration routes traffic from a single IP address to more than one Service, based on the HTTP URI being requested. An Ingress allows you to keep the number of load balancers down to a minimum.
+A Fanout configuration routes traffic from a single IP address to more than one Service, based on the HTTP URI being requested. An Ingress allows you to keep the number of load balancers down to a minimum.
 
 ```mermaid
 graph LR;
