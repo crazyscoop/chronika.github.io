@@ -1,7 +1,7 @@
 ---
 title: Introduction to Kubernetes Ingress
-date: 2025-03-07 07:00:00 +0530
-categories: [Kubernetes Ingress]
+date: 2025-02-01 07:00:00 +0530
+categories: [Kubernetes, Ingress]
 tags: [kubernetes, networking, ingress]
 description: "In Kubernetes, getting external users to reach your services efficiently is key to running modern applications. One of the original ways to handle this is through the Ingress APIs. In this post, we’ll break down what Kubernetes Ingress is, explain how the Ingress APIs work, and highlight the benefits and limitations of this original approach."
 mermaid: true

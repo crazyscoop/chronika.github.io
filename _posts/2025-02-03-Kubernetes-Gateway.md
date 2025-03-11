@@ -1,7 +1,7 @@
 ---
 title: Kubernetes Gateway
-date: 2025-03-06 07:00:00 +0530
-categories: [Kubernetes Ingress]
+date: 2025-02-04 07:00:00 +0530
+categories: [Kubernetes, Ingress]
 tags: [kubernetes, networking, ingress]
 description: "The Kubernetes Gateway API simplifies traffic management in your cluster by offering improved routing and clear roles for platform engineers and developers."
 ---
@@ -28,7 +28,6 @@ description: "The Kubernetes Gateway API simplifies traffic management in your c
 ## Gateway API Resource Model
 
 <img src="/assets/img/posts/gateway-resource-model.png" alt="Gateway Resource Model" width="450" height="450" style="border: 4px solid grey;">
-<!-- ![Gateway Resource Model](/assets/img/posts/gateway-resource-model.png){: height="400" width="500"} -->
 
 ### Gateway Class
 - Defines a group of Gateways that share the same configuration and behavior.
