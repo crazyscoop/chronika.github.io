@@ -89,7 +89,7 @@ kubectl apply -f http-echo-service.yaml
   ```sh
   curl http://localhost:8080 -v
   ```
-	- You should get a `hello-world` response for the server.
+	- You should get a `hello-world` response from the server.
 
 ## References
 - Docker image for [hashicorp/http-echo](https://hub.docker.com/r/hashicorp/http-echo/tags)
