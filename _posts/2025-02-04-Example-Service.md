@@ -6,7 +6,7 @@ tags: [kubernetes]
 description: "In this guide, we'll walk through setting up an example service in Kubernetes, covering key concepts like deployments, services, and pods."
 ---
 
-## Pre-requisites
+## Prerequisites
 Before you begin, ensure you have the following installed:
 - kubectl: The Kubernetes command-line tool.
 - k8s cluster: Kubernetes cluster such as Minikube, Google Kubernetes Engine (GKE), Amazon Elastic Kubernetes Service (EKS), or Azure Kubernetes Service (AKS).
