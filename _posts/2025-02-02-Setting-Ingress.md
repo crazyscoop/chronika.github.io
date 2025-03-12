@@ -74,5 +74,5 @@ mermaid: true
 <br>
 
 ### Install Cert-Manager
-Follow installation instructions from [Cert-Manager post](../Cert-Manager/#installation/) to install cert-manager and issuer.
+Follow installation instructions from [Cert-Manager post](../Cert-Manager/) to install cert-manager and issuer.
 
