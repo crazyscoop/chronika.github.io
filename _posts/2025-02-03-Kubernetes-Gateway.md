@@ -47,6 +47,9 @@ description: "The Kubernetes Gateway API simplifies traffic management in your c
 - Support functionalities like traffic splitting, retries, and header modifications, offering more control compared to the traditional Ingress resource.
 
 
+## References
+- Kubernetes Gateway [Implementations].(https://gateway-api.sigs.k8s.io/implementations/)
+
 
 
 
