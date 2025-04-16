@@ -2,7 +2,7 @@
 title: 'Part 1: Setting Up The Edge with NGINX and Certbot'
 date: 2025-02-14 07:00:00 +0530
 categories: [Architecture, Chronika]
-tags: [nginx, networking, tls, certificates]
+tags: [nginx, networking, tls, certificate]
 description: "In this post, we focus on setting up the edge of our secure architecture. We’ll walk you through installing NGINX and configuring Certbot to manage TLS certificates. This setup is essential for terminating client TLS connections, automating certificate renewals, and securely forwarding traffic to the internal network."
 mermaid: true
 ---
