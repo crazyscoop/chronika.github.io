@@ -2,7 +2,7 @@
 title: Cert Manager
 date: 2025-02-03 07:00:00 +0530
 categories: [Kubernetes, Tools]
-tags: [kubernetes]
+tags: [kubernetes, certificate]
 description: "Cert-manager is a powerful Kubernetes add-on that automates the issuance and renewal of TLS certificates. In this hands-on guide, you'll learn how to install cert-manager, configure it to work with a certificate authority like Let's Encrypt, and integrate it with your Kubernetes workloads."
 ---
 

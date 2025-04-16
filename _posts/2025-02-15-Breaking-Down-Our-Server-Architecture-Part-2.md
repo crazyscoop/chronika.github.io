@@ -2,7 +2,7 @@
 title: 'Part 2: Setting up Ingress with Ingress Nginx'
 date: 2025-02-14 07:00:00 +0530
 categories: [Architecture, Chronika]
-tags: [nginx, networking, tls, certificates]
+tags: [kubernetes, ingress, nginx, certificate, waf]
 description: "In this post, we continue building our secure server architecture by configuring the internal ingress layer. We’ll set up an example service, install the NGINX Ingress Controller with ModSecurity, and integrate Cert-Manager to automate TLS certificate management. Additionally, we’ll walk through delegating subdomain DNS to DigitalOcean for internal load balancers and securing them with DNS-01 challenges."
 mermaid: true
 ---

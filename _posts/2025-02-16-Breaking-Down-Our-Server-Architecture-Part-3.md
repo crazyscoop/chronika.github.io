@@ -2,7 +2,7 @@
 title: 'Part 3: Securely Bridging Edge and Internal with TLS'
 date: 2025-02-16 07:00:00 +0530
 categories: [Architecture, Chronika]
-tags: [nginx, networking, tls, certificates]
+tags: [kubernetes, nginx, networking, tls, certificate]
 description: "In this post, we continue from the edge where TLS was terminated and explore how to forward traffic from the public-facing NGINX to an internal load balancer securely. We establish a new TLS connection between the edge NGINX and the internal ingress, ensuring end-to-end encryption within your infrastructure."
 mermaid: true
 ---
